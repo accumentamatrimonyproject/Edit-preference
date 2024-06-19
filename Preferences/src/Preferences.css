@@ -1,0 +1,36 @@
+.main{
+   margin-left: 10vw;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: left;
+    background-color: brown;
+    margin-left: 2vw;
+    height: 50vw;
+    width:20vw;
+  }
+ .Rectangle4109{
+   width: 495; 
+   height: 200; 
+   left: 275; 
+   top: 12; 
+   position: 'absolute';
+    opacity: 1;
+ }
+.img{
+   background-image: url('./assets/Background.png');
+   background-repeat: no-repeat;
+   background-attachment:cover;
+   opacity: 1;
+   width: 100%;
+}
+  
+.BottomHead{
+   background-image: url('./assets/Background.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   opacity: 0.5;
+   
+}
