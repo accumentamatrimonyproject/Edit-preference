@@ -223,7 +223,7 @@ const Preferences = () => {
               <label htmlFor='star' style={{ width: '20vw', padding: '0.5vw', fontSize: 20, fontFamily: 'Poppins', color: '#780024', left: 365 }}>Star</label>
               <select id='star' name='star' value={formData.star} onChange={handleOnChange} style={{ width: '12vw', padding: '0.5vw', fontSize: 20, fontFamily: 'Poppins', left: 365 }}>
                 <option value="" disabled>Star</option>
-                {starSigns.map((Sign, index) => (
+                {starSigns.map((Sign, index)=> (
                   <option key={index} value={Sign}>{Sign}</option>
 
                 )
