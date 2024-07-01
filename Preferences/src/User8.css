@@ -1,0 +1,26 @@
+
+.back-button {
+    display: none!important;
+  }
+.icon {
+      display: block;
+}
+
+@media (min-width: 768px) {
+    .icon {
+      display: none; /* Hide FaArrowLeft icon on larger screens */
+    }
+    .back-button {
+        display: block!important;
+      }
+  }
+
+/* @media (max-width: 767px) {
+    .back-button {
+      display: none;
+    }
+    .icon {
+        display: block;
+      }
+  } */
+  

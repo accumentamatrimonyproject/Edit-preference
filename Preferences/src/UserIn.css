@@ -1,0 +1,31 @@
+/* UserIn.css */
+
+.container {
+  font-family: 'Poppins';
+ 
+}
+
+.card-title {
+  color: #990909;
+  font-weight: bold;
+}
+
+
+
+.custom-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+textarea {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.card-text {
+  color: #333;
+}
+.mb-3{
+  margin-left: 28px;
+}
